@@ -1,5 +1,5 @@
 
-
+/*
 function compute()
 {
     principal = document.getElementById("principal").value ?? 0;
@@ -10,7 +10,7 @@ function compute()
     
     
 }
-
+*/
 function readSlider()
 {
     alert("asdf");
