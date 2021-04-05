@@ -14,7 +14,7 @@ function readSlider()
 {
     alert("asdf");
     p = document.getElementById("rate").value;
-    document.getElementById("display").value = p;
+    document.getElementById("display").innerHTML = p;
 
 }
 
