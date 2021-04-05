@@ -13,7 +13,6 @@ function compute()
 */
 function readSlider()
 {
-    alert("asdf");
     p = document.getElementById("rate").value;
     document.getElementById("display").innerHTML = p;
 
