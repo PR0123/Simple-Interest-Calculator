@@ -11,6 +11,7 @@ function compute()
     
 }
 */
+
 function readSlider()
 {
     p = document.getElementById("rate").value;
