@@ -9,8 +9,20 @@ h1{
 }
 div.maindiv {
     background-color:white; color: black; 
-    width: 300px; padding:20px;
+    width: 500px; padding:20px;
     border-radius: 25px;
     margin: auto;
+   
+}
+div.main{
+    margin: 8% 15%;
 }
 
+div.grid{
+    display: grid;
+    grid-template-columns: max-content max-content ;
+}
+
+span#num {
+    background-color:yellow;
+}

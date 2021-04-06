@@ -17,14 +17,15 @@ function compute()
     var result = document.getElementById("result")
 
     result.innerHTML = 
-    "<br/><b>If</b> you deposit " 
+    "<br/><b>If</b> you deposit <span id='num'>"
     + principal 
-    + ",<br/><b>at</b> an interest rate of " 
+    + "</span>,<br/><b>at</b> an interest rate of <span id='num'>" 
     +  rate
-    +"%.<br/><b>You</b> will receive an amount of " 
+    + "%</span>.<br/><b>You</b> will receive an amount of <span id='num'>" 
     + interest
-    + ",<br/><b>in</b> the year " 
+    + "</span>,<br/><b>in</b> the year <span id='num'>" 
     + yearsInt
+    + "</span>"
 }
 
 //function that reads the value of the range slider and displays it the <span>adjacent to the slider.
