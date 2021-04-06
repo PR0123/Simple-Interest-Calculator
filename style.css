@@ -12,7 +12,5 @@ div.maindiv {
     width: 300px; padding:20px;
     border-radius: 25px;
     margin: auto;
-    display: flex;
-    justify-content: center;
 }
 

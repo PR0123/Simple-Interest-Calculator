@@ -2,16 +2,24 @@
 
 function compute()
 {
-    var principal = document.getElementById("principal").value
+    var p = document.getElementById("principal")
+    var principal = p.value
+    
+
+    if(principal <= 0){ 
+        alert("Enter positive number"); 
+        p.focus();
+        return false;
+    }
+
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100
 
-if (principal.value <= 0) {
-    alert("Enter a positive number")
-}
 
-    document.getElementById("result").innerHTML = 
+
+    var result = document.getElementById("result")
+    result.innerHTML = 
     "If you deposit" 
     + principal 
     + ",at an interest rate of " 
