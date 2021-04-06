@@ -7,7 +7,7 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100
 
-if principal.value <= 0 {
+if (principal.value <= 0) {
     alert("Enter a positive number")
 }
 
